@@ -40,8 +40,7 @@ public class PricingEngine {
 
 		Map<String, Double> resultMap = new HashMap<String, Double>();
 
-		InputConverter iConverter = new InputConverter();
-		int[] intInput = iConverter.convertIntegers(numbers);
+		int[] intInput = InputConverter.convertIntegers(numbers);
 
 		// get subsets
 		List<InputMapper> inputMappers = SetDivider.getSubSets(intInput);

@@ -24,7 +24,7 @@ public class SetDivider {
 	        for (i = 0; i < l.length && !(flags[i] = !flags[i]); i++);
 	    }
 	    
-	   // System.out.println(inputMappers.size());
+	 
 		return inputMappers;
 	    
 	}
